@@ -1,0 +1,83 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+#banzi{
+    width: 1000px;
+    height: 650px;
+    float: left;
+    background: gray;
+    margin-left: 350px;
+    margin-top: 0px;
+}
+.board {
+    width: 588px;
+    height: 588px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid brown;
+    border-top: 1px solid brown;
+    position: absolute;
+    margin-top:20px;
+    margin-left: 200px;
+}
+.piece {
+    position: absolute;
+    border-radius: 50%;
+}
+.black {
+    background: #000;
+}
+.white {
+    background: #ddd;
+}
+.row {
+    display: flex;
+    flex: 1;
+}
+.cell {
+    flex: 1;
+    height: 100%;
+    border-bottom: 1px solid brown;
+    border-right: 1px solid brown;
+}
+h3 {
+    text-align: center;
+}
+.turn {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+button {
+    width: 120px;
+    text-align: center;
+    margin-right: 20px;
+}
+.toolbar {
+    width:200px;
+    height: 200px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 0;
+    background: gold;
+}
+/*重新开始*/
+.restart {
+    margin-left: 50px;
+    background: green;
+    color: #fff;
+    border: none;
+}
+.undo{
+    margin-left: 50px;
+}
+footer {
+    max-width: 560px;
+    margin: auto;
+    text-align: right;
+    color: blue;
+    margin-top: 20px;
+}
